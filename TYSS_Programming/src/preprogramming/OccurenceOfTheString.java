@@ -4,8 +4,8 @@ import java.util.HashSet;
 
 public class OccurenceOfTheString {
 	public static void main(String[] args) {
-		String s = "My life My Rules";
-		
+		String s = "My India My Pride";
+
 		String[] str = s.split(" ");
 		//Step 1 : Create a set collection and add all the String array values into Set
 		HashSet<String> set = new HashSet<>();

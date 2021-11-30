@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class FabinocciSeries {
 
 	public static void main(String[] args) {
-		System.out.println("Enter the number");
+		
 		int f1 = 0;
 		int f2 = 1;
+		System.out.println("Enter the number");
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		while(n>0)
@@ -19,5 +20,4 @@ public class FabinocciSeries {
 			n--;
 		}
 	}
-
 }
